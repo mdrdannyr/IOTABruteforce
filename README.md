@@ -9,6 +9,7 @@ This program is for people who have sent money to a receiving address, but unfor
 - The known characters of your seed (i.e. 75 characters) 
 - The Receiving address (i.e. where you sent your IOTA to)
 - The Receiving address index (i.e. how many receiving addresses did you generate in your wallet and what number in that list was the address to which the IOTA was sent.). 
+- (If running on linux, ensure the user has permissions to write to the log file) 
 
 
 ## Requirements: 
