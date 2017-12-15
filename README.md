@@ -4,7 +4,7 @@ A program to find an IOTA seed based on the receiving address.
 
 This program is for people who have sent money to a recieving address, but unfortunately have lost part of their seed. 
 
-#Required to run the program:
+# Required to run the program:
 
 - The known characters of your seed (i.e. 75 characters) 
 - The Receiving address (i.e. where you sent your IOTA to)
@@ -12,7 +12,7 @@ This program is for people who have sent money to a recieving address, but unfor
 
 
 
-##Number of possibilities for seeds are as follows: 
+## Number of possibilities for seeds are as follows: 
 
 Each character can be made up from [A-Z9] giving a total count of 27 possibilities for each character. 
 
@@ -25,7 +25,7 @@ Y is equal to the index number of your receiving address.
 
 
 
-#Requirements: 
+# Requirements: 
 Python 3.6 or 3.5 or 2.7.
 pyota 
 
