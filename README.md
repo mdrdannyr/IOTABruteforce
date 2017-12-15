@@ -31,7 +31,7 @@ Each character can be made up from upper-case letters A-Z and the digit 9 giving
 
 Total number of seeds are therefore:
 
-                                                 27^N * Y
+                                                 27 <sup>N</sup> * Y
 
 N = Numbers of characters missing from the seed;
 
