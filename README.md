@@ -11,6 +11,14 @@ This program is for people who have sent money to a receiving address, but unfor
 - The Receiving address index (i.e. how many receiving addresses did you generate in your wallet and what number in that list was the address to which the IOTA was sent.). 
 
 
+## Requirements: 
+Python 3.6 or 3.5 or 2.7.
+pyota 
+
+apt-get install python 3.6 
+pip install pyota[ccurl] 
+
+(The ccurl is optional but it is stated that this decreases the amount taken to carry out cryptographic calculations by up to 60X). 
 
 ## Number of possibilities for seeds are as follows: 
 
@@ -24,20 +32,9 @@ N = Numbers of characters missing from the seed and
 Y is equal to the index number of your receiving address. 
 
 
-
-## Requirements: 
-Python 3.6 or 3.5 or 2.7.
-pyota 
-
-apt-get install python 3.6 
-pip install pyota[ccurl] 
-
-(The ccurl is optional but it is stated that this decreases the amount taken to carry out cryptographic calculations by up to 60X). 
-
-
 ## References: 
 
 
-(https://github.com/iotaledger/iota.lib.py)
-
+https://github.com/iotaledger/iota.lib.py
+https://github.com/bahamapascal/IOTA-Balanace-Checker
 
