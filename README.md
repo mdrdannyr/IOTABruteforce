@@ -23,3 +23,17 @@ Total number of seeds are therefore:
 
 N = Numbers of characters missing from the seed and 
 Y is equal to the index number of your receiving address. 
+
+
+
+#Requirements: 
+
+python 3.6
+pyota 
+
+apt-get install python 3.6 
+pip install pyota[ccurl] 
+
+(The ccurl is optional but it is stated that this decreases the amount taken to carry out cryptographic calculations by up to 60X). 
+
+
