@@ -22,15 +22,15 @@ pip install pyota[ccurl]
 
 ## Number of possibilities for seeds are as follows: 
 
-Each character can be made up from [A-Z9] giving a total count of 27 possibilities for each character. 
+Each character can be made up from upper-case letters A-Z and the digit 9 giving a total count of 27 possibilities for each character. 
 
 Total number of seeds are therefore:
 
-                        27^N * Y
+                                                 27^N * Y
 
-N = Numbers of characters missing from the seed and 
+N = Numbers of characters missing from the seed;
 
-Y is equal to the index number of your receiving address. 
+Y = Index number of your receiving address. 
 
 
 ## References: 
