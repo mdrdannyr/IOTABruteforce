@@ -2,7 +2,7 @@
 
 A program to find an IOTA seed based on the receiving address. 
 
-This program is for people who have sent money to a recieving address, but unfortunately have lost part of their seed. 
+This program is for people who have sent money to a receiving address, but unfortunately have lost part of their seed. 
 
 ## Required to run the program:
 
