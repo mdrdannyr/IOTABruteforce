@@ -16,7 +16,7 @@ This program is for people who have sent money to a receiving address, but unfor
 
 - pyota 
 
-# Commands to install:
+### Commands to install:
 ```
 apt-get install python 3.6 
 ```
