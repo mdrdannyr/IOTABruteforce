@@ -12,9 +12,9 @@ This program is for people who have sent money to a receiving address, but unfor
 
 
 ## Requirements: 
-Python 3.6 or 3.5 or 2.7.
+- Python 3.6 or 3.5 or 2.7.
 
-pyota 
+- pyota 
 
 # Commands to install:
 ```
