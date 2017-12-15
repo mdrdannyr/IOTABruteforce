@@ -26,14 +26,19 @@ Y is equal to the index number of your receiving address.
 
 
 
-#Requirements: 
-
-python 3.6
+Requirements: 
+Python 3.6 or 3.5 or 2.7.
 pyota 
 
 apt-get install python 3.6 
 pip install pyota[ccurl] 
 
 (The ccurl is optional but it is stated that this decreases the amount taken to carry out cryptographic calculations by up to 60X). 
+
+
+References: 
+
+
+(https://github.com/iotaledger/iota.lib.py)
 
 
