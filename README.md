@@ -31,11 +31,11 @@ Each character can be made up from upper-case letters A-Z and the digit 9 giving
 
 Total number of seeds are therefore:
 
-                                                 27 <sup>N</sup> * Y
+27<sup>N</sup> * I
 
-N = Numbers of characters missing from the seed;
+Where, N = Numbers of characters missing from the seed;
 
-Y = Index number of your receiving address. 
+I = Index number of your receiving address. 
 
 
 ## References: 
