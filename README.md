@@ -13,14 +13,19 @@ This program is for people who have sent money to a receiving address, but unfor
 
 ## Requirements: 
 Python 3.6 or 3.5 or 2.7.
+
 pyota 
 
+# Commands to install:
+```
 apt-get install python 3.6 
+```
+```
 pip install pyota[ccurl] 
+```
+(The ccurl is optional but it is stated that this decreases the amount of time taken to carry out cryptographic calculations by up to 60X). 
 
-(The ccurl is optional but it is stated that this decreases the amount taken to carry out cryptographic calculations by up to 60X). 
-
-## Number of possibilities for seeds are as follows: 
+## Information - Number of possibilities for seeds are as follows: 
 
 Each character can be made up from upper-case letters A-Z and the digit 9 giving a total count of 27 possibilities for each character. 
 
