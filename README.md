@@ -29,6 +29,7 @@ Total number of seeds are therefore:
                         27^N * Y
 
 N = Numbers of characters missing from the seed and 
+
 Y is equal to the index number of your receiving address. 
 
 
