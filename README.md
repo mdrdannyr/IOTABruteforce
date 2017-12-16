@@ -38,6 +38,29 @@ Where, N = Numbers of characters missing from the seed;
 
 I = Index number of your receiving address. 
 
+## Information - Calculating how many seeds you've checked from the seed value 
+
+Due to memory / hard disk issues, and wanting the program to be as efficient as possible, the script overwrites the log file instead of appending it and does not have a lot of progress information. The only information the user recieves in terms of progress is the seed last checked which is saved into the log file. 
+
+To calculate how many seeds have been checked using this seed value please see the below: 
+
+Assuming the latest iteration of seed has a variable section of: ABCD 
+
+Total seeds checked = 27<sup>3</sup> * (A-1) + 27<sup>2</sup> * (B-1) + 27<sup>1</sup> * (C-1) + 27<sup>0</sup> * D 
+
+Where each characters value is the index value between A-Z9. i.e:
+
+A = 1
+
+B = 2 
+
+...
+
+9 = 27 
+
+Therefore the seed value: AEDC would be equal to 3000 seeds checked. i.e:  
+
+27<sup>3</sup> * (1-1) + 27<sup>2</sup> * (5-1) + 27<sup>1</sup> * (4-1) + 27<sup>0</sup> * 3 = 3000
 
 ## References: 
 
