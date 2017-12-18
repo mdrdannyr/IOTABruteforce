@@ -19,7 +19,7 @@ This program is for people who have sent money to a receiving address, but unfor
 
 ### Commands to install:
 ```
-apt-get install python 3.6 
+apt-get install python3.6 
 ```
 ```
 pip install pyota[ccurl] 
