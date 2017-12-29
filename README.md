@@ -2,7 +2,36 @@
 
 A program to find an IOTA seed based on the receiving address. 
 
-This program is for people who have sent money to a receiving address, but unfortunately have lost part of their seed. 
+This program is for people who have sent money to a receiving address, but unfortunately have lost part of their seed.
+
+## Instructions: 
+
+- The IOTA_Bruteforcer.py is the main program to run. There is a section in here with the outlined variables which the user has to edit.
+- If there is already a seed in the log.txt file, the program will run continue from that seed. If there is no seed in the log file it will start from the first possible seed value (AAAAA). 
+  
+  Note: Be aware of your systems maximum number size (sys.maxsize). If the previously saved seed in log.txt has an index value greater than this, the program may not function properly. 
+```
+python3
+```
+```
+import sys
+```
+```
+sys.maxsize
+```
+ 
+- The program will save every 1000th seed checked into the log.txt file. If a matching seed is found, it will be saved into the seed.txt file. 
+- To find out how many seeds have been checked run the get_seed_index.py file (no input is needed - it will retrieve the seed from the log.txt file). 
+
+#### Commands to run the program: 
+
+- Ensure the user has permissions to write to the log.txt file and seed.txt file. 
+```
+python3 IOTA_Bruteforcer.py
+```
+```
+python3 get_seed_index.py
+```
 
 ## Required to run the program:
 
