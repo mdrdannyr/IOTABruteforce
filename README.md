@@ -30,6 +30,7 @@ sys.maxsize
 ```
 python3 IOTA_Bruteforcer.py
 ```
+- To check how many seeds have been checked. (run in another terminal) 
 ```
 python3 get_seed_index.py
 ```
