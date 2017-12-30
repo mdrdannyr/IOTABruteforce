@@ -16,10 +16,10 @@ from ctypes import c_int
 #######################################################################################################################################
 #######################################################################################################################################
 
-length = 13 # number of chars missing from seed 
+length = 5 # number of chars missing from seed 
 numberOfAddresses = 3 # Number of addresses to generate and check for a match. 
-known_seed_value = "GNYGKKCFHLPEBEGGIUQIDFW9VGWKSRIQBNDCYLTZXHTBWMPIIHHMFTGMPU9JRXUJETWS" #Known Seed characters (partial)
-known_recieving_value = "VCNJAOLU9UNNOTVIWQOMGBESECWQNNIOTJDTRTEXWNLXUBFOVANTJPAWSTDKDDNPQQV9UIFQGDNDJALZJ" # Known recieving address (full)
+known_seed_value = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" #Known Seed characters (partial)
+known_recieving_value = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" # Known recieving address (full)
 cores_all_physical = False #If running on a machine where all the cores are physical set to true. IF unsure, leave as False. 
 
 #######################################################################################################################################
