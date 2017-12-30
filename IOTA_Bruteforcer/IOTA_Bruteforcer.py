@@ -35,7 +35,6 @@ rdict = dict([ (x[1],x[0]) for x in enumerate(chars) ]) # define reverse lookup 
 #Log Variable
 j = 0 #variable for saving logs. Initialisation needs to occur here. 
 
-
 #######################################################################################################################################
 #######################################################################################################################################
 ############################################## Create Seed Permutations -- Do Not Change ##############################################
@@ -48,11 +47,8 @@ def perm(n, seq, Start_value):
     for p in itertools.islice(all_combos, Start_value, None): #start at START_VALUE and stop at None (the end)
         perm_result = "".join(p)
         seed = known_seed_value + perm_result        
-        print("seed is: " + seed)
         addressGenerator(seed)
         
-
-
 #######################################################################################################################################
 #######################################################################################################################################
 ############################################ Create Recieving Address Permutations -- Do Not Change ###################################
@@ -66,7 +62,6 @@ def addressGenerator(seed):
 	i = 0 #int for number of addresses
 	while i < numberOfAddresses:
 		address = [addresses[i]]
-		print("   The address is: " + str(address[0]))
 		i += 1
 		if address[0] == known_recieving_value: # If the address is equal to the recieving address then.. (Address without checksum)
 			print("Bruteforcer Finished")
@@ -125,7 +120,5 @@ else: #if there is a seed value in the log file
 	start_value =  res #define the index value of the start value for the seed. 
 
 perm(length, chars, start_value) #Run the permutations
-
-
 
 
