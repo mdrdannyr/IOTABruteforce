@@ -6,9 +6,9 @@ This program is for people who have sent money to a receiving address, but unfor
 
 ## Instructions: 
 
-- The first thing to do which is essential is remove all text from both the log.txt file and seed.txt file. If there is data in the seed.txt file, the program will not run as it will think that the seed has already been found.
-- The IOTA_Bruteforcer.py is the main program to run. There is a section in here with the outlined variables which the user has to edit. Please note that the program is multiprocessing (i.e. runs on multiple processes). This is to increase the speed. 
+- The first thing to do which is essential is remove all text from the seed.txt file. If there is data in the seed.txt file, the program will not run as it will think that the seed has already been found.
 - If there is already a seed in the log.txt file, the program will run continue from that seed. If there is no seed in the log file it will start from the first possible seed value (AAAAA). 
+- The IOTA_Bruteforcer.py is the main program to run. There is a section in here with the outlined variables which the user has to edit. Please note that the program is multiprocessing (i.e. runs on multiple processes). This is to increase the speed. 
   
   Note: Be aware of your systems maximum number size (sys.maxsize). If the previously saved seed in log.txt has an index value greater than this, the program may not function properly. 
 ```
